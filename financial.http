@@ -1,4 +1,4 @@
-GET http://localhost:3000/Api/?ticker=AAPL
+GET http://localhost:3000/Api/ticker?ticker=AAPL
 
 GET http://localhost:3000/Api/?ticker=AAPL&column=revenue,gp
 
