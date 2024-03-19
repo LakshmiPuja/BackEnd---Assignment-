@@ -1,4 +1,14 @@
-GET http://localhost:3888/Api?ticker=AAPL
+GET http://localhost:3000/Api/?ticker=AAPL
 ###
 
 
+GET http://localhost:3000/Api/?ticker=AAPL&column=revenue,gp
+###
+
+GET http://localhost:3000/APi/?ticker=AAPL&column=revenue,gp&period=5Y
+###
+
+GET http://localhost:3000/Api/?ticker=ZS&column=revenue,gp&period=5Y
+###
+
+GET http://localhost:3000/Api/?ticker=YELP&column=revenue,gp&period=5Y
