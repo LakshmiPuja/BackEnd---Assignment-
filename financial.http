@@ -1,0 +1,4 @@
+GET http://localhost:3888/Api?ticker=AAPL
+###
+
+
